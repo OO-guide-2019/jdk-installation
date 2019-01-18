@@ -33,11 +33,23 @@
 
 #### JAVA_HOME
 
+在下方系统变量栏中，新建环境变量`JAVA_HOME`。
 
+变量值为`C:\Program Files\Java\jdk1.8.0_101`（具体路径因安装路径而异，不要包含`bin`）。
+
+如下图所示
+
+![](.\pic-1.png)
 
 #### CLASSPATH
 
+在系统变量栏中，新建变量`CLASSPATH`，变量值为`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`。
 
+（注意，一定要留有前面的`.`符号）
+
+如下如所示：
+
+![](.\pic-2.png)
 
 #### PATH
 
